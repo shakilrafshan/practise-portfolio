@@ -6,7 +6,7 @@
 body{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
-    
+
 }
 .top_area{
     display: flex;
@@ -31,4 +31,30 @@ body{
     background-color: orange;
     color: white;
     display: inline-block;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.about_section{
+    padding:20px 0;
+}
+.about_section h1 , h2{
+    text-align: center;
+    padding: 20px 0;
+    
+}
+.shadow{
+    box-shadow: 10px 10px 20px gray ;
+    padding:5px;
+    margin: 1%;
+    border-left: 7px solid blue;
+    border-radius: 10px;
+}
+
+.shadow p{
+    text-align: justify;
+    font-size: 20px;
+    padding: 5px 0;
 }

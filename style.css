@@ -36,9 +36,14 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 0 5%;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: right;
 }
 .about_section{
     padding:20px 0;
+    
 }
 .about_section h1 , h2{
     text-align: center;
@@ -57,4 +62,17 @@ body{
     text-align: justify;
     font-size: 20px;
     padding: 5px 0;
+}
+
+.contact{
+    margin: 5%;
+    padding: 0 50px;
+}
+.contact label{
+    font-size: 25px;
+    padding-right: 50px;
+}
+.contact input{
+    font-size: 25px;
+    place-content: 20px;;
 }
